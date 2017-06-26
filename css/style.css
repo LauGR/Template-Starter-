@@ -14,11 +14,13 @@ nav {
         color: #fff;
         text-decoration: none; }
 
+/* ==================== Vote ================= */
 .vote {
   margin-left: 427px;
   background-color: #f2f2f2;
   background-size: 398px; }
 
+/* ===================== Article ===================*/
 article {
   margin-left: 427px; }
   article hr {
@@ -38,5 +40,48 @@ article {
   article .Android, article .tatoos, article .bed {
     font-family: 'sans seif';
     width: 375px; }
+
+/* ==================== Aside ==================== */
+aside hr {
+  border: none;
+  border-left: 1px solid #73848c;
+  height: 1000px;
+  margin-left: 900px;
+  padding-top: 1000px; }
+aside h2 {
+  background-color: #b5ce00;
+  color: #fff;
+  width: 540px;
+  height: 37px;
+  font-family: 'Open Sans';
+  font-size: 18px;
+  font-weight: normal;
+  margin-bottom: 40px;
+  padding-left: 14px;
+  padding-top: 14px; }
+aside .crazy {
+  float: left;
+  clear: both;
+  padding-right: 10px; }
+aside .rs {
+  padding-top: 240px;
+  margin-left: 20px; }
+aside p {
+  width: 530px;
+  color: #7f8384; }
+aside h3, aside p {
+  margin-left: 10px; }
+
+/* ================ Form ======================= */
+form {
+  color: #5f6e97; }
+  form input {
+    color: #5f6e97; }
+  form p {
+    width: 140px;
+    display: inline-flex; }
+  form a {
+    text-decoration: none;
+    color: #5f6e97; }
 
 /*# sourceMappingURL=style.css.map */
