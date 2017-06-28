@@ -60,8 +60,6 @@ aside h2 {
   padding-left: 14px;
   padding-top: 14px; }
 aside .crazy {
-  float: left;
-  clear: both;
   padding-right: 10px; }
 aside .rs {
   padding-top: 240px;
@@ -73,15 +71,32 @@ aside h3, aside p {
   margin-left: 10px; }
 
 /* ================ Form ======================= */
-form {
-  color: #5f6e97; }
-  form input {
-    color: #5f6e97; }
-  form p {
-    width: 140px;
-    display: inline-flex; }
-  form a {
-    text-decoration: none;
-    color: #5f6e97; }
+form label {
+  margin-right: 20px;
+  display: inline; }
+form input {
+  color: #697478; }
+form p {
+  display: inline; }
+form a {
+  text-decoration: none;
+  color: #697478; }
+form #user, form #pass {
+  display: block;
+  margin-left: 130px;
+  margin-top: -30px;
+  width: 419px;
+  height: 26px; }
+form #user {
+  margin-bottom: 25px; }
+form #remember {
+  margin-bottom: 16px; }
+form #button {
+  display: block;
+  border: 1px solid #d9d9d9;
+  color: #c9b0ab;
+  height: 32px;
+  width: 106px;
+  margin-bottom: 23px; }
 
 /*# sourceMappingURL=style.css.map */
